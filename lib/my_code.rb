@@ -51,6 +51,7 @@ while element_index < source_array.length do
   else 
     return false
   end
+end
   return true
 end
 
