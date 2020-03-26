@@ -44,7 +44,14 @@ while element_index < source_array.length do
 end
 
 def reduce_to_all_true(source_array)
-
+element_index = 0
+while element_index < source_array.length do
+  if source_array[element_index]
+    element_index += 1
+  else 
+    return flase
+  end
+  return true
 end
 
 
